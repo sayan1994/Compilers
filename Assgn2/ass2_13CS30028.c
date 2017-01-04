@@ -5,7 +5,7 @@ int prints(char * str)						//function to print a string passed as parameter
 	int len=0;
 	while(str[len]!='\0')
 	{
-		len++;
+		len++ ;
 	} 										//count number of characters to be printed
 	__asm__ __volatile__ (
 		"movl $1, %%eax \n\t"
