@@ -6,5 +6,5 @@ int main()
 	int ar[n];
 	int i;
 	for(i=0;i<n;i++)
-		scanf("%d ",&ar[i]);
+		scanf("%d  ",&ar[i]);
 }
